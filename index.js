@@ -19,7 +19,7 @@ happyHolidaysTo("Easter", "Otti");
 
 
 function holidayCountdown(days, holidays) {
-  return 'It's ${days} days until ${holiday}!'
+  return "It's ${days} days until ${holiday}!"
 }
 
 holidayCountdown(10, "Easter");
