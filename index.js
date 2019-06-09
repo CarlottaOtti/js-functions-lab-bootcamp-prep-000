@@ -9,13 +9,13 @@ function happyHolidayTo(name) {
   return "Happy Holidays, ${name}!"
 }
 
-happyHolidayTo("Otti");
+happyHolidayTo("you");
 
 function happyHolidayTo(holiday, name) {
   return "Happy ${holiday}, ${name}!"
 }
 
-happyHolidayTo("Easter", "Otti");
+happyHolidayTo("Independence Day", "you");
 
 
 function holidayCountdown(days, holidays) {
