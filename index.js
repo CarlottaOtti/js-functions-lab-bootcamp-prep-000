@@ -5,17 +5,21 @@ function happyHolidays() {
 
 happyHolidays();
 
-function happyHolidaysTo("Otti") {
+function happyHolidaysTo(name) {
   return "Happy Holidays, ${name}!"
 }
 
-happyHolidaysTo("Otti")
+happyHolidaysTo("Otti");
 
-function happyHolidaysTo("Easter", "Otti") {
+function happyHolidaysTo(holiday, name) {
   return "Happy ${holiday}, ${name}!"
 }
 
+happyHolidaysTo("Easter", "Otti");
 
-function holidayCoutndown("10", "Summer") {
+
+function holidayCountdown(days, holidays) {
   return `It's ${days} days until ${holiday}!`
 }
+
+holidayCountdown(10, "Easter");
